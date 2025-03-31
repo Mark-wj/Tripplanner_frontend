@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { AuthContext } from '../components/AuthContext';
 
-const API_BASE_URL = 'http://127.0.0.1:8000/api';
+const API_BASE_URL = 'https://tripplanner-backend-s3yx.onrender.com/api';
 
 const TripForm = ({ onTripCreated }) => {
   const [tripDetails, setTripDetails] = useState({

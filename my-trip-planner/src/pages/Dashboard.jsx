@@ -4,7 +4,7 @@ import { AuthContext } from '../components/AuthContext';
 import TripPlanner from './TrpiPlanner'; 
 import CombinedDashboard from '../components/CombinedDashboard'; 
 
-const API_BASE_URL = 'http://127.0.0.1:8000/api';
+const API_BASE_URL = 'https://tripplanner-backend-s3yx.onrender.com/api';
 
 const Dashboard = () => {
   const { authData } = useContext(AuthContext);

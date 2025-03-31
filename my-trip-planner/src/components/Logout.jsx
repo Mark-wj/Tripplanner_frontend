@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { AuthContext } from './AuthContext';
 
-const API_BASE_URL = 'http://127.0.0.1:8000/api/auth';
+const API_BASE_URL = 'https://tripplanner-backend-s3yx.onrender.com/api/auth';
 
 const Logout = () => {
   const { authData, logout } = useContext(AuthContext);

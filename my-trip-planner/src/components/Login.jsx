@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { AuthContext } from './AuthContext';
 import { Link, useNavigate } from 'react-router-dom';
 
-const API_BASE_URL = 'http://localhost:8000/api/auth';
+const API_BASE_URL = 'https://tripplanner-backend-s3yx.onrender.com/api/auth';
 
 const Login = () => {
   const [formData, setFormData] = useState({ username: '', password: '' });
