@@ -1,5 +1,7 @@
 [build]
-  # Delete any Pipfile, then install & build your React app:
-  command = "rm -f Pipfile Pipfile.lock && npm install && npm run build"
-  # Tell Netlify where to find your production-ready files:
-  publish = "build"
+  # Change into your React app directory before building:
+  base    = "Tripplanner_frontend"
+  # Install & build with Node:
+  command = "npm install && npm run build"
+  # Publish the build output:
+  publish = "Tripplanner_frontend/build"
