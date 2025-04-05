@@ -1,5 +1,5 @@
 [build]
-  # Override the default dependency install step:
-  command   = "npm install && npm run build"
-  # Tell Netlify where your production-ready files live:
-  publish   = "build"
+  # Delete any Pipfile, then install & build your React app:
+  command = "rm -f Pipfile Pipfile.lock && npm install && npm run build"
+  # Tell Netlify where to find your production-ready files:
+  publish = "build"
