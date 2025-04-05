@@ -1,6 +1,6 @@
 # TripPlanner
 Welcome to TripPlanner! This project is a full-stack application built with Django and React that takes trip details as input and outputs both route instructions and Electronic Logging Device (ELD) logs.
-Live Site: tripplanner2.netlify.app   
+* Frontend: Deployed at [tripplanner2.netlify.app](https://tripplanner2.netlify.app) for a seamless, fast user experience.
 ## Project Overview
 This app serves as an all-in-one tool for drivers and fleet managers to:
 
