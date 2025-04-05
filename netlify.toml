@@ -1,4 +1,4 @@
 [build]
-base = "my-trip-planner"  # Path to your project folder
-command = "npm run build"
-publish = "my-trip-planner/dist"  # Vite's output folder
+  base = "my-trip-planner"   # Netlify will run commands from this folder
+  command = "npm run build"  # Builds your Vite app
+  publish = "dist"           # Points to my-trip-planner/dist (no duplication)
