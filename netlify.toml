@@ -1,0 +1,7 @@
+[build]
+  # Where your React app’s package.json lives:
+  base   = "my-trip-planner"
+  # How to build it:
+  command = "npm install && npm run build"
+  # What folder to publish:
+  publish = "my-trip-planner/build"
