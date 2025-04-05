@@ -1,7 +1,3 @@
 [build]
-  # 1) Install phase: remove Pipfile so Netlify won't do Pipenv, then install JS deps
-  install = "rm -f Pipfile Pipfile.lock && npm install"
-  # 2) Build phase: run your React build
   command = "npm run build"
-  # 3) Publish the output
-  publish = "build"
+  publish = "dist"
