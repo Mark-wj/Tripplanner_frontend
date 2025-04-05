@@ -1,0 +1,4 @@
+[build]
+base = "my-trip-planner"  # Path to your project folder
+command = "npm run build"
+publish = "my-trip-planner/dist"  # Vite's output folder
