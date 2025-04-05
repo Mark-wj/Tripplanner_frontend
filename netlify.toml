@@ -1,7 +1,5 @@
 [build]
-  # Change into your React app directory before building:
-  base    = "Tripplanner_frontend"
-  # Install & build with Node:
-  command = "npm install && npm run build"
-  # Publish the build output:
-  publish = "Tripplanner_frontend/build"
+  # Delete any Pipenv triggers, then install & build your React app in the root:
+  command = "rm -f Pipfile Pipfile.lock && npm install && npm run build"
+  # Publish the build output from the root build folder:
+  publish = "build"
